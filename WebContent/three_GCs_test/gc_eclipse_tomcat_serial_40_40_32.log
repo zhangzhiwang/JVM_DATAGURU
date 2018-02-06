@@ -1,0 +1,45 @@
+Java HotSpot(TM) 64-Bit Server VM (24.80-b11) for bsd-amd64 JRE (1.7.0_80-b15), built on Apr 10 2015 11:25:43 by "java_re" with gcc 4.2.1 (Based on Apple Inc. build 5658) (LLVM build 2336.11.00)
+Memory: 4k page, physical 16777216k(4194304k free)
+
+/proc/meminfo:
+
+CommandLine flags: -XX:+HeapDumpOnOutOfMemoryError -XX:HeapDumpPath=/Users/zhangzhiwang/Desktop/system/dump/test_eclipse_tomcat.dump -XX:InitialHeapSize=41943040 -XX:MaxHeapSize=41943040 -XX:PermSize=33554432 -XX:+PrintGC -XX:+PrintGCDetails -XX:+PrintGCTimeStamps -XX:+UseCompressedOops -XX:+UseSerialGC 
+0.492: [GC0.492: [DefNew: 10944K->1344K(12288K), 0.0090390 secs] 10944K->2616K(39616K), 0.0091730 secs] [Times: user=0.00 sys=0.01, real=0.01 secs] 
+0.749: [GC0.749: [DefNew: 12288K->1344K(12288K), 0.0120100 secs] 13560K->5145K(39616K), 0.0120740 secs] [Times: user=0.01 sys=0.00, real=0.01 secs] 
+0.905: [GC0.905: [DefNew: 12288K->1272K(12288K), 0.0097310 secs] 16089K->6353K(39616K), 0.0098140 secs] [Times: user=0.02 sys=0.00, real=0.01 secs] 
+1.125: [GC1.125: [DefNew: 12216K->1344K(12288K), 0.0062040 secs] 17297K->7418K(39616K), 0.0062860 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+1.191: [GC1.191: [DefNew: 12288K->1344K(12288K), 0.0044350 secs] 18362K->8813K(39616K), 0.0045610 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+1.261: [GC1.261: [DefNew: 12288K->1344K(12288K), 0.0025210 secs] 19757K->9430K(39616K), 0.0026110 secs] [Times: user=0.01 sys=0.00, real=0.00 secs] 
+1.320: [GC1.320: [DefNew: 12288K->1344K(12288K), 0.0026910 secs] 20374K->10195K(39616K), 0.0027960 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+1.376: [GC1.376: [DefNew: 12288K->1344K(12288K), 0.0022190 secs] 21139K->11259K(39616K), 0.0022790 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+1.427: [GC1.427: [DefNew: 12288K->1343K(12288K), 0.0021610 secs] 22203K->12062K(39616K), 0.0022260 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+1.484: [GC1.484: [DefNew: 12287K->1344K(12288K), 0.0026930 secs] 23006K->13038K(39616K), 0.0027750 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+1.535: [GC1.535: [DefNew: 12288K->1344K(12288K), 0.0029080 secs] 23982K->13977K(39616K), 0.0030010 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+1.590: [GC1.590: [DefNew: 12288K->1344K(12288K), 0.0024080 secs] 24921K->14836K(39616K), 0.0024740 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+1.640: [GC1.640: [DefNew: 12288K->1344K(12288K), 0.0023260 secs] 25780K->15651K(39616K), 0.0023780 secs] [Times: user=0.01 sys=0.00, real=0.00 secs] 
+1.766: [GC1.766: [DefNew: 12288K->1211K(12288K), 0.0022090 secs] 26595K->15637K(39616K), 0.0022630 secs] [Times: user=0.01 sys=0.00, real=0.01 secs] 
+2.039: [GC2.039: [DefNew: 12155K->1194K(12288K), 0.0067430 secs] 26581K->16241K(39616K), 0.0068200 secs] [Times: user=0.01 sys=0.00, real=0.00 secs] 
+2.345: [GC2.345: [DefNew: 12138K->1344K(12288K), 0.0067160 secs] 27185K->17425K(39616K), 0.0067870 secs] [Times: user=0.01 sys=0.00, real=0.01 secs] 
+2.480: [GC2.480: [DefNew: 12288K->1344K(12288K), 0.0055470 secs] 28369K->18727K(39616K), 0.0056080 secs] [Times: user=0.01 sys=0.00, real=0.00 secs] 
+2.583: [GC2.583: [DefNew: 12288K->1343K(12288K), 0.0069550 secs] 29671K->20220K(39616K), 0.0070190 secs] [Times: user=0.01 sys=0.00, real=0.01 secs] 
+2.656: [GC2.656: [DefNew: 12287K->1292K(12288K), 0.0038440 secs] 31164K->21180K(39616K), 0.0039050 secs] [Times: user=0.01 sys=0.00, real=0.01 secs] 
+2.792: [GC2.792: [DefNew: 12236K->1344K(12288K), 0.0025510 secs] 32124K->21727K(39616K), 0.0026140 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+2.862: [GC2.862: [DefNew: 12288K->1343K(12288K), 0.0043860 secs] 32671K->22843K(39616K), 0.0044550 secs] [Times: user=0.01 sys=0.00, real=0.00 secs] 
+3.036: [GC3.036: [DefNew: 12287K->1343K(12288K), 0.0099030 secs] 33787K->26958K(39616K), 0.0099840 secs] [Times: user=0.03 sys=0.00, real=0.01 secs] 
+163.256: [GC163.256: [DefNew: 12287K->12287K(12288K), 0.0001350 secs]163.256: [Tenured: 25614K->19095K(27328K), 0.0774840 secs] 37902K->19095K(39616K), [Perm : 20386K->20386K(32768K)], 0.0779620 secs] [Times: user=0.08 sys=0.00, real=0.08 secs] 
+163.918: [GC163.918: [DefNew: 10944K->415K(12288K), 0.0047940 secs] 30039K->19510K(39616K), 0.0050530 secs] [Times: user=0.01 sys=0.00, real=0.01 secs] 
+164.579: [GC164.579: [DefNew: 11359K->433K(12288K), 0.0036810 secs] 30454K->19528K(39616K), 0.0039700 secs] [Times: user=0.01 sys=0.00, real=0.00 secs] 
+165.341: [GC165.341: [DefNew: 11377K->440K(12288K), 0.0050080 secs] 30472K->19535K(39616K), 0.0052790 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+166.055: [GC166.055: [DefNew: 11384K->463K(12288K), 0.0023280 secs] 30479K->19558K(39616K), 0.0024320 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+166.690: [GC166.690: [DefNew: 11407K->457K(12288K), 0.0029110 secs] 30502K->19552K(39616K), 0.0031030 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+167.347: [GC167.347: [DefNew: 11401K->456K(12288K), 0.0055180 secs] 30496K->19551K(39616K), 0.0057890 secs] [Times: user=0.01 sys=0.01, real=0.01 secs] 
+Heap
+ def new generation   total 12288K, used 7547K [0x00000007f8600000, 0x00000007f9350000, 0x00000007f9350000)
+  eden space 10944K,  64% used [0x00000007f8600000, 0x00000007f8cecac0, 0x00000007f90b0000)
+  from space 1344K,  33% used [0x00000007f90b0000, 0x00000007f9122260, 0x00000007f9200000)
+  to   space 1344K,   0% used [0x00000007f9200000, 0x00000007f9200000, 0x00000007f9350000)
+ tenured generation   total 27328K, used 19095K [0x00000007f9350000, 0x00000007fae00000, 0x00000007fae00000)
+   the space 27328K,  69% used [0x00000007f9350000, 0x00000007fa5f5c18, 0x00000007fa5f5e00, 0x00000007fae00000)
+ compacting perm gen  total 32768K, used 20963K [0x00000007fae00000, 0x00000007fce00000, 0x0000000800000000)
+   the space 32768K,  63% used [0x00000007fae00000, 0x00000007fc278f20, 0x00000007fc279000, 0x00000007fce00000)
+No shared spaces configured.

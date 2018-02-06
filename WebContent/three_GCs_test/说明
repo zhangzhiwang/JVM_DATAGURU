@@ -1,0 +1,8 @@
+三种垃圾收集器对系统性能的影响
+测试工具：jmeter+tomcat7
+环境：jdk1.7
+
+测试数据：10个线程，每个线程循环1000次，共执行10000次。
+三种GC：SerialGC、ParallelGC、CMS
+java启动参数：-server -Xloggc:/Users/zhangzhiwang/Desktop/system/log/gc_eclipse_tomcat_CMS_40_40_32.log -XX:+PrintGCDetails -Xms40m -Xmx40m -XX:+HeapDumpOnOutOfMemoryError -XX:HeapDumpPath=/Users/zhangzhiwang/Desktop/system/dump/test_eclipse_tomcat.dump -XX:+UseConcMarkSweepGC -XX:PermSize=32m
+			控制初始堆空间、最大堆空间和永久去空间不变，更改垃圾收集器的参数
